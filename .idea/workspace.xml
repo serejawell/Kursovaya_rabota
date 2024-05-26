@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="adding poetry.toml">
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_funcs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operations.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/operations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="null tests">
+      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_funcs.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,10 @@
     "Python tests.pytest for test_funcs.test_get_five_last_executed_operations.executor": "Run",
     "Python tests.pytest for test_funcs.test_get_sorted_operations.executor": "Run",
     "Python tests.pytest for test_funcs.test_operations_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_class_to_ops_and_sort.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_executed_operations.executor": "Run",
     "Python.class_operation.executor": "Run",
     "Python.main.executor": "Run",
     "Python.utils.executor": "Run",
@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.pytest for test_utils.test_get_data">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
@@ -93,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_funcs.test_get_class_to_ops_and_sort" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_utils.test_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +106,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_funcs.test_get_class_to_ops_and_sort&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_funcs.test_get_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_utils.test_get_class_to_ops_and_sort" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,11 +123,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_funcs.test_get_data&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_class_to_ops_and_sort&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_funcs.test_get_executed_operations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_utils.test_get_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +140,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_funcs.test_get_executed_operations&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_funcs.test_get_five_last_executed_operations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_utils.test_get_executed_operations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,17 +157,34 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_funcs.test_get_five_last_executed_operations&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_executed_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_utils" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Kursovaya_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_utils&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_utils.test_get_data" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest for test_funcs.test_get_class_to_ops_and_sort" />
-        <item itemvalue="Python tests.pytest for test_funcs.test_get_executed_operations" />
-        <item itemvalue="Python tests.pytest for test_funcs.test_get_five_last_executed_operations" />
-        <item itemvalue="Python tests.pytest for test_funcs.test_get_data" />
+        <item itemvalue="Python tests.pytest for test_utils.test_get_executed_operations" />
+        <item itemvalue="Python tests.pytest for test_utils.test_data" />
+        <item itemvalue="Python tests.pytest for test_utils.test_get_class_to_ops_and_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716682547994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding main files">
+      <option name="closed" value="true" />
+      <created>1716753314803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716753314803</updated>
+    </task>
+    <task id="LOCAL-00008" summary="null tests">
+      <option name="closed" value="true" />
+      <created>1716754768836</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716754768836</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +288,8 @@
     <MESSAGE value="adding operations.json" />
     <MESSAGE value="adding utils" />
     <MESSAGE value="adding poetry.toml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding poetry.toml" />
+    <MESSAGE value="adding main files" />
+    <MESSAGE value="null tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="null tests" />
   </component>
 </project>
