@@ -13,7 +13,18 @@ def data():
 def test_get_data(data):
     assert data is not None
 
+def test_get_class_to_ops_and_sort(data):
+    pass
+def test_get_executed_operations(data):
+    pass
+def test_formation_datetime(data):
+    pass
 
+def test_card_number_split_and_hide(data):
+    pass
+
+def test_get_five_last_executed_operations(data):
+    pass
 
 
 
