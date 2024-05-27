@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="deliting methods from class_operation.py, moving to utils later">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="testing funcs, but only 1 func tasted" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +25,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "serejawell"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:serejawell/Kursovaya_rabota.git",
+    "accountId": "f0cc6c93-d942-4003-a18f-23a796b13259"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -69,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_utils.test_get_executed_operations">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
@@ -179,10 +188,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_executed_operations" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_class_to_ops_and_sort" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_data" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.pytest for test_utils.test_data" />
       </list>
     </recent_temporary>
@@ -315,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716841738747</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1716841755654</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841755654</updated>
+    </task>
+    <task id="LOCAL-00016" summary="testing funcs, but only 1 func tasted">
+      <option name="closed" value="true" />
+      <created>1716841808263</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841808263</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,6 +368,8 @@
     <MESSAGE value="adding funcs in utils" />
     <MESSAGE value="poetry.lock" />
     <MESSAGE value="deliting methods from class_operation.py, moving to utils later" />
-    <option name="LAST_COMMIT_MESSAGE" value="deliting methods from class_operation.py, moving to utils later" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="testing funcs, but only 1 func tasted" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing funcs, but only 1 func tasted" />
   </component>
 </project>
