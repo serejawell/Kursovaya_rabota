@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="null tests">
-      <change afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+    <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="deliting methods from class_operation.py, moving to utils later">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for test_funcs.test_get_class_to_ops_and_sort.executor": "Run",
-    "Python tests.pytest for test_funcs.test_get_data.executor": "Run",
-    "Python tests.pytest for test_funcs.test_get_executed_operations.executor": "Run",
-    "Python tests.pytest for test_funcs.test_get_five_last_executed_operations.executor": "Run",
-    "Python tests.pytest for test_funcs.test_get_sorted_operations.executor": "Run",
-    "Python tests.pytest for test_funcs.test_operations_data.executor": "Run",
-    "Python tests.pytest for test_utils.test_data.executor": "Run",
-    "Python tests.pytest for test_utils.test_get_class_to_ops_and_sort.executor": "Run",
-    "Python tests.pytest for test_utils.test_get_data.executor": "Run",
-    "Python tests.pytest for test_utils.test_get_executed_operations.executor": "Run",
-    "Python.class_operation.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.utils.executor": "Run",
-    "Python.utils1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/home/petya/kursovaya_project/Kursovaya_project/tests",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for test_funcs.test_get_class_to_ops_and_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_funcs.test_get_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_funcs.test_get_executed_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_funcs.test_get_five_last_executed_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_funcs.test_get_sorted_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_funcs.test_operations_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_utils.test_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_utils.test_get_class_to_ops_and_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_utils.test_get_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_utils.test_get_executed_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_operation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/petya/kursovaya_project/Kursovaya_project/tests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
@@ -70,7 +69,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_utils.test_get_data">
+  <component name="RunManager" selected="Python tests.pytest for test_utils.test_get_executed_operations">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Kursovaya_project" />
       <option name="ENV_FILES" value="" />
@@ -180,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_utils.test_get_executed_operations" />
+        <item itemvalue="Python tests.pytest for test_utils.test_get_class_to_ops_and_sort" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_data" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest for test_utils.test_get_executed_operations" />
         <item itemvalue="Python tests.pytest for test_utils.test_data" />
-        <item itemvalue="Python tests.pytest for test_utils.test_get_class_to_ops_and_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +267,55 @@
       <option name="project" value="LOCAL" />
       <updated>1716754768836</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding some tests">
+      <option name="closed" value="true" />
+      <created>1716760279923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716760279923</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding init in tests">
+      <option name="closed" value="true" />
+      <created>1716841600125</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841600125</updated>
+    </task>
+    <task id="LOCAL-00011" summary="addin pytest and pytest-cov in group develop in pyproject.toml">
+      <option name="closed" value="true" />
+      <created>1716841631734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841631734</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding funcs in utils">
+      <option name="closed" value="true" />
+      <created>1716841662437</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841662437</updated>
+    </task>
+    <task id="LOCAL-00013" summary="poetry.lock">
+      <option name="closed" value="true" />
+      <created>1716841714628</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841714628</updated>
+    </task>
+    <task id="LOCAL-00014" summary="deliting methods from class_operation.py, moving to utils later">
+      <option name="closed" value="true" />
+      <created>1716841738747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716841738747</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +337,12 @@
     <MESSAGE value="adding poetry.toml" />
     <MESSAGE value="adding main files" />
     <MESSAGE value="null tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="null tests" />
+    <MESSAGE value="adding some tests" />
+    <MESSAGE value="adding init in tests" />
+    <MESSAGE value="addin pytest and pytest-cov in group develop in pyproject.toml" />
+    <MESSAGE value="adding funcs in utils" />
+    <MESSAGE value="poetry.lock" />
+    <MESSAGE value="deliting methods from class_operation.py, moving to utils later" />
+    <option name="LAST_COMMIT_MESSAGE" value="deliting methods from class_operation.py, moving to utils later" />
   </component>
 </project>
