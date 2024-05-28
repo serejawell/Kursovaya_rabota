@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a76ccede-52db-4461-a334-5245c5fd3596" name="Changes" comment="testing funcs, but only 1 func tasted">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Kursovaya_rabota.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +40,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:serejawell/Kursovaya_rabota.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/serejawell/Kursovaya_rabota.git&quot;,
     &quot;accountId&quot;: &quot;f0cc6c93-d942-4003-a18f-23a796b13259&quot;
   }
 }</component>
@@ -50,64 +53,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.pytest for test_funcs.test_get_class_to_ops_and_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_funcs.test_get_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_funcs.test_get_executed_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_funcs.test_get_five_last_executed_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_funcs.test_get_sorted_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_funcs.test_operations_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_utils.test_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_utils.test_get_class_to_ops_and_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_utils.test_get_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_utils.test_get_executed_operations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class_operation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/petya/kursovaya_project/Kursovaya_project/tests&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for test_funcs.test_get_class_to_ops_and_sort.executor": "Run",
+    "Python tests.pytest for test_funcs.test_get_data.executor": "Run",
+    "Python tests.pytest for test_funcs.test_get_executed_operations.executor": "Run",
+    "Python tests.pytest for test_funcs.test_get_five_last_executed_operations.executor": "Run",
+    "Python tests.pytest for test_funcs.test_get_sorted_operations.executor": "Run",
+    "Python tests.pytest for test_funcs.test_operations_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_card_number_split_and_hide.executor": "Run",
+    "Python tests.pytest for test_utils.test_correct_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_amount_and_currency.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_class_to_ops_and_sort (1).executor": "Run",
+    "Python tests.pytest for test_utils.test_get_class_to_ops_and_sort.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_data (1).executor": "Run",
+    "Python tests.pytest for test_utils.test_get_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_executed_operations (1).executor": "Run",
+    "Python tests.pytest for test_utils.test_get_executed_operations.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_executing_data.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_format_date.executor": "Run",
+    "Python tests.pytest for test_utils.test_get_last_five_operations.executor": "Run",
+    "Python tests.pytest for test_utils.test_json_to_list.executor": "Run",
+    "Python.class_operation.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main1.executor": "Run",
+    "Python.utils.executor": "Run",
+    "Python.utils1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "/home/petya/PycharmProjects/Kursovaya_rabota/tests",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
+    "settings.editor.splitter.proportion": "0.28960645"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
+  <component name="RunManager" selected="Python tests.pytest for test_utils.test_get_executing_data">
+    <configuration name="pytest for test_utils.test_card_number_split_and_hide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Kursovaya_rabota" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Poetry (Kursovaya_rabota)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_card_number_split_and_hide&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_utils.test_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
+      <module name="Kursovaya_rabota" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,8 +133,8 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_utils.test_get_class_to_ops_and_sort" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
+    <configuration name="pytest for test_utils.test_get_amount_and_currency" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Kursovaya_rabota" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +146,12 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_utils.test_get_class_to_ops_and_sort&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_amount_and_currency&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_utils.test_get_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
+      <module name="Kursovaya_rabota" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,8 +167,8 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_utils.test_get_executed_operations" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
+    <configuration name="pytest for test_utils.test_get_executing_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Kursovaya_rabota" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,34 +180,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_utils.test_get_executed_operations&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_utils" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Kursovaya_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_utils&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_executing_data&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.pytest for test_utils.test_get_executed_operations" />
-        <item itemvalue="Python tests.pytest for test_utils.test_get_class_to_ops_and_sort" />
+        <item itemvalue="Python tests.pytest for test_utils.test_get_executing_data" />
         <item itemvalue="Python tests.pytest for test_utils.test_get_data" />
         <item itemvalue="Python tests.pytest for test_utils.test_data" />
+        <item itemvalue="Python tests.pytest for test_utils.test_card_number_split_and_hide" />
+        <item itemvalue="Python tests.pytest for test_utils.test_get_amount_and_currency" />
       </list>
     </recent_temporary>
   </component>
